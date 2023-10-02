@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="utils.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Animesh Upadhyay</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Animesh Upadhyay</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./images/profile_img.jpg" alt="" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Animesh Upadhyay</h1>
+        <p class="section__text__p2">ML Developer | Frontend Developer</p>
+        <div class="btn-container">
+          <button class="btn btn-color-2" onclick="window.open('./images/Animesh_Upadhyay_Resume.pdf')">Download CV</button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./images/linkedin.png"
+            alt="Linkedin"
+            class="icon"
+            onclick="location.href='https://linkedin.com/in/animesh-upadhyay-74a32a1b5/'"
+          />
+          <img
+            src="./images/github.png"
+            alt="Github"
+            class="icon"
+            onclick="location.href='https://github.com/animesh-up'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get to Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./images/profilepic.jpg"
+            alt="Profile-Pic"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./images/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>2+ years of <br />ML Development | Frontend Development</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./images/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>
+                B.E. Bachelor of Engineering in <br />Artificial Intelligence &
+                Machine Learning (2021-25)
+              </p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+                👨‍🎓I am Animesh Upadhyay, a passionate 3rd-year engineering student currently pursuing a Bachelor's degree in Engineering with a specialization in Artificial Intelligence and Machine Learning (AIML) at Chandigarh University. My love for technology and a strong passion for problem-solving have shaped my journey in the world of coding, where I thrive on tackling complex programming challenges.<br><br>
+
+                👨‍💻 As an aspiring engineer, I am constantly working to improve my skills in various programming languages and explore cutting-edge technologies. My coding journey has been incredibly exciting, and I am always on the lookout for opportunities to enhance my expertise and broaden my horizons in the tech world. Outside of academics, I'm also a cricket enthusiast and a music lover, adding a touch of versatility to my vibrant personality.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./images/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">
+              ML Development | Data Structures & Algorithm
+            </h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./images/checkmark.webp"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./images/checkmark.webp"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Machine Learning</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./images/checkmark.webp"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>C++</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./images/checkmark.webp"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Competitive Programming</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./images/checkmark.webp"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Postman API</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./images/checkmark.webp"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>UI/UX</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">
+              Frontend Development
+            </h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./images/checkmark.webp"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML/CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./images/checkmark.webp"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./images/checkmark.webp"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>React-Js</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./images/checkmark.webp"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Bootstrap</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./images/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./images/project-1.webp" alt="Project-1" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">Movie Recommender System</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/animesh-up/movie-recommender-system'"
+              >
+                Github
+              </button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://animesh-movie.streamlit.app/'">Live Demo</button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./images/landing-page.webp" alt="Project-2" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">Gym Website:Landing Page</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/animesh-up/Gym-Landing-Page'"
+              >
+                Github
+              </button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://animesh-up.github.io/Gym-Landing-Page/'">Live Demo</button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./images/temprature.webp" alt="Project-3" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">Temperature Convertor</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/animesh-up/Temperature-Convertor'"
+              >
+                Github
+              </button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://animesh-up.github.io/Temperature-Convertor/'">Live Demo</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+      src="./images/arrow.png"
+      alt="Arrow icon"
+      class="icon arrow"
+      onclick="location.href='./#contact'"
+    />
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./images/email.png" alt="Email icon" class="icon contact-icon email-icon">
+                <p><a href="mailto: connectanimesh0809@gmail.com" target="_blank">connectanimesh0809@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./images/linkedin.png" alt="Linkedin icon" class="icon contact-icon">
+                <p><a href="https://linkedin.com/in/animesh-upadhyay-74a32a1b5/" target="_blanks">Linkedin</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./images/instagram.webp" alt="instagram icon" class="icon contact-icon">
+                <p><a href="https://www.instagram.com/aniiiimeshhh/" target="_blank">Instagram</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                  </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2023 Animesh Upadhyay. All Rights Reserved</p>
+    </footer>
+  </body>
+</html>
